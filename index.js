@@ -46,7 +46,6 @@ const main = async() => {
     })
 
     const {passed, iterations} = binarySearch(list, search.value);
-    console.log(passed, iterations)
 
     if (passed) {
 
